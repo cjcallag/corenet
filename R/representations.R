@@ -41,7 +41,7 @@ get_el.network <- function(.g) {
   col1 <- vapply(.g[["mel"]], function(x) x[["outl"]], numeric(1L))
   col2 <- vapply(.g[["mel"]], function(x) x[["inl"]],  numeric(1L))
 
-  if (is_directed(.g)) {
+  if (is_dir(.g)) {
     out <- cbind(col1, col2, deparse.level = 0)
   } else {
     out <- cbind(col2, col1, deparse.level = 0)

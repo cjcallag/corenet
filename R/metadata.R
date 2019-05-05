@@ -5,7 +5,7 @@
 #' 
 #' @export
 n_verts <- function(.g) {
-  UseMethod("vert_count")
+  UseMethod("n_verts")
 }
 
 
@@ -56,23 +56,23 @@ n_edges.network <- function(.g) {
 #' @template bknapp-author
 #' 
 #' @export
-is_directed <- function(.g) {
-  UseMethod("is_directed")
+is_dir <- function(.g) {
+  UseMethod("is_dir")
 }
 
-#' @rdname is_directed
+#' @rdname is_dir
 #' 
 #' @importFrom igraph is_directed
 #' 
 #' @export
-is_directed.igraph <- function(.g) {
+is_dir.igraph <- function(.g) {
   is_directed(.g)
 }
 
-#' @rdname is_directed
+#' @rdname is_dir
 #' 
 #' @export
-is_directed.network <- function(.g) {
+is_dir.network <- function(.g) {
   isTRUE(.g[["gal"]][["directed"]])
 }
 
