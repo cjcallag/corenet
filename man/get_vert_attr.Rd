@@ -13,9 +13,9 @@ get_vert_attr(.g, .vert_attr_name, ...)
 \method{get_vert_attr}{network}(.g, .vert_attr_name, ...)
 }
 \arguments{
-\item{.g}{graph, currently objects of class `igraph` or `network`.}
+\item{.g}{graph, currently objects of class \code{igraph} or \code{network}.}
 
-\item{.vert_attr_name}{`character(1L)`. The name of a vertex attribute in `.g`.}
+\item{.vert_attr_name}{\code{character(1L)}. The name of a vertex attribute in \code{.g}.}
 
 \item{...}{arguments passed on to lower-level functions. Currently unused.}
 }

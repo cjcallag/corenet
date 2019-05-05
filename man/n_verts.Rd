@@ -13,7 +13,7 @@ n_verts(.g)
 \method{n_verts}{network}(.g)
 }
 \arguments{
-\item{.g}{graph, currently objects of class `igraph` or `network`.}
+\item{.g}{graph, currently objects of class \code{igraph} or \code{network}.}
 }
 \description{
 How many vertices are there?

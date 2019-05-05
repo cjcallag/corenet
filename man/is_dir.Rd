@@ -4,7 +4,7 @@
 \alias{is_dir}
 \alias{is_dir.igraph}
 \alias{is_dir.network}
-\title{Are `.g`'s edges directed?}
+\title{Are \code{.g}'s edges directed?}
 \usage{
 is_dir(.g)
 
@@ -13,10 +13,10 @@ is_dir(.g)
 \method{is_dir}{network}(.g)
 }
 \arguments{
-\item{.g}{graph, currently objects of class `igraph` or `network`.}
+\item{.g}{graph, currently objects of class \code{igraph} or \code{network}.}
 }
 \description{
-Are `.g`'s edges directed?
+Are \code{.g}'s edges directed?
 }
 \author{
 Brendan Knapp \email{brendan.knapp@nps.edu}

@@ -45,7 +45,11 @@ n_edges.igraph <- function(.g) {
   ecount(.g)
 }
 
+#' @rdname n_edges
+#' 
 #' @importFrom network network.edgecount
+#' 
+#' @export
 n_edges.network <- function(.g) {
   network.edgecount(.g)
 }

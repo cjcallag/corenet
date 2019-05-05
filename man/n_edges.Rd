@@ -3,14 +3,17 @@
 \name{n_edges}
 \alias{n_edges}
 \alias{n_edges.igraph}
+\alias{n_edges.network}
 \title{How many edges are there?}
 \usage{
 n_edges(.g)
 
 \method{n_edges}{igraph}(.g)
+
+\method{n_edges}{network}(.g)
 }
 \arguments{
-\item{.g}{graph, currently objects of class `igraph` or `network`.}
+\item{.g}{graph, currently objects of class \code{igraph} or \code{network}.}
 }
 \description{
 How many edges are there?

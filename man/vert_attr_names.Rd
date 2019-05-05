@@ -13,7 +13,7 @@ vert_attr_names(.g, ...)
 \method{vert_attr_names}{network}(.g, ...)
 }
 \arguments{
-\item{.g}{graph, currently objects of class `igraph` or `network`.}
+\item{.g}{graph, currently objects of class \code{igraph} or \code{network}.}
 
 \item{...}{arguments passed on to lower-level functions. Currently unused.}
 }

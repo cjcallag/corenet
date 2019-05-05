@@ -55,4 +55,13 @@ test_that("`get_el()` works", {
   expect_equal(
     name_el, as_edge_list(jemmah_islamiyah_nw)
   )
+  
+  
+  expect_equal(
+    name_el, as_edge_list(jemmah_islamiyah_ig, .vert_attr_name = "name")
+  )
+  
+  expect_equal(
+    name_el, as_edge_list(jemmah_islamiyah_nw, .vert_attr_name = "vertex.names")
+  )
 })

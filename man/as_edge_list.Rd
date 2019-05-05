@@ -7,9 +7,9 @@
 as_edge_list(.g, .use_names = TRUE, .vert_attr_name = NULL, ...)
 }
 \arguments{
-\item{.g}{graph, currently objects of class `igraph` or `network`.}
+\item{.g}{graph, currently objects of class \code{igraph} or \code{network}.}
 
-\item{.vert_attr_name}{`character(1L)`. The name of a vertex attribute in `.g`.}
+\item{.vert_attr_name}{\code{character(1L)}. The name of a vertex attribute in \code{.g}.}
 }
 \description{
 Get the edge list representation of a graph as a matrix.

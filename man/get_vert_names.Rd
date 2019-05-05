@@ -2,19 +2,19 @@
 % Please edit documentation in R/vertex-attributes.R
 \name{get_vert_names}
 \alias{get_vert_names}
-\title{Get vertex names, following the conventions of `.g`'s class.}
+\title{Get vertex names, following the conventions of \code{.g}'s class.}
 \usage{
 get_vert_names(.g, ...)
 }
 \arguments{
-\item{.g}{graph, currently objects of class `igraph` or `network`.}
+\item{.g}{graph, currently objects of class \code{igraph} or \code{network}.}
 
 \item{...}{arguments passed on to lower-level functions. Currently unused.}
 
-\item{.vert_attr_name}{`character(1L)`. The name of a vertex attribute in `.g`.}
+\item{.vert_attr_name}{\code{character(1L)}. The name of a vertex attribute in \code{.g}.}
 }
 \description{
-Get vertex names, following the conventions of `.g`'s class.
+Get vertex names, following the conventions of \code{.g}'s class.
 }
 \author{
 Brendan Knapp \email{brendan.knapp@nps.edu}
