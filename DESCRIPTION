@@ -1,0 +1,25 @@
+Package: corenet
+Title: Tools for Network Analysis
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Brendan",
+           family = "Knapp",
+           role = c("aut", "cre"),
+           email = "brendan.knapp@nps.edu",
+           comment = c(ORCID = "0000-0003-3284-4972")),
+    person(given = "Christopher ",
+           family = "Callaghan",
+           role = c("aut"),
+           email = "cjcallag@nps.edu"))
+URL: https://github.com/NPSCORELAB/corenet
+Description: Network analysis, simplified.
+License: GPL-2
+Imports:
+    igraph,
+    network,
+    magrittr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Suggests: 
+    testthat (>= 2.1.0)

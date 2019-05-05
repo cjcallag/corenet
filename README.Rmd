@@ -1,0 +1,24 @@
+---
+output: 
+  github_document:
+    html_preview: false
+---
+
+<!-- README.Rmd generates README.md. -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  # collapse = TRUE,
+  fig.align = "center",
+  comment = "#>",
+  fig.path = "man/figures/"
+)
+```
+
+
+
+# corenet
+
+[![Lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![Travis-CI Build Status](https://travis-ci.org/NPSCORELAB/corenet.svg?branch=master)](https://travis-ci.org/NPSCORELAB/corenet)
+[![codecov](https://codecov.io/gh/NPSCORELAB/corenet/branch/master/graph/badge.svg)](https://codecov.io/gh/NPSCORELAB/corenet)
