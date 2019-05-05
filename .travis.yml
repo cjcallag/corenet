@@ -3,8 +3,6 @@ cache: packages
 
 jobs:
   include:
-  - r: 3.0
-    warnings_are_errors: false
   - r: 3.1
     warnings_are_errors: false
   - r: 3.2
