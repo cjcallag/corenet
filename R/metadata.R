@@ -54,6 +54,7 @@ n_edges.network <- function(.g) {
   network.edgecount(.g)
 }
 
+
 #' Are `.g`'s edges directed?
 #' 
 #' @template g-param
